@@ -17,9 +17,6 @@
   "entrypoints": {
     "client": [
       "me.grish.veinforge.VeinForgeClient"
-    ],
-    "modmenu": [
-      "me.grish.veinforge.config.VeinForgeModMenuIntegration"
     ]
   },
   "mixins": [
