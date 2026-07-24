@@ -57,7 +57,6 @@ dependencies {
     implementation("net.fabricmc:fabric-language-kotlin:$kotlinLoaderVersion")
     compileOnly("org.notenoughupdates.moulconfig:modern-26.2:4.7.2")
     add("shadowModImpl", "org.notenoughupdates.moulconfig:modern-26.2:4.7.2")
-    compileOnly("com.terraformersmc:modmenu:${modmenuVersion}")
 
     compileOnly("org.jetbrains:annotations:26.0.1")
     compileOnly("org.projectlombok:lombok:1.18.42")
