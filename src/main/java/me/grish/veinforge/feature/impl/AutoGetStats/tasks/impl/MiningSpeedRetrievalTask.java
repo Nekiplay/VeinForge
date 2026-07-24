@@ -27,7 +27,7 @@ public class MiningSpeedRetrievalTask extends AbstractInventoryTask<Integer> {
 
         InventoryUtil.holdItem(VeinForge.config().general.miningTool);
 
-        if (!InventoryUtil.getInventoryName().equals("Your Equipment and Stats")) {
+        if (!InventoryUtil.getInventoryName().equals("Stats & Equipment")) {
             if (mc.gui.screen() != null) {
                 InventoryUtil.closeScreen();
             }
