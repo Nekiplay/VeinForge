@@ -46,7 +46,7 @@ public class MiningSpeedRetrievalTask extends AbstractInventoryTask<Integer> {
             return;
         }
 
-        if (!InventoryUtil.getInventoryName().equals("Your Equipment and Stats")) {
+        if (!InventoryUtil.getInventoryName().equals("Stats & Equipment")) {
             taskStatus = TaskStatus.FAILURE;
             error = "Cannot open Stats Menu";
             return;
